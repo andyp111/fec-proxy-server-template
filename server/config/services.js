@@ -42,19 +42,19 @@
 
 module.exports = {
   service1: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3001',
-    bundle: 'app.js',
+    api: '/products',
+    url: 'http://3.87.186.93:3000/',
+    bundle: '/dist/bundle.js',
   },
   service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: '/relatedItems',
+    url: 'http://3.131.135.106:3000/',
+    bundle: 'bundle.js',
   },
   service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+    api: '/qanda',
+    url: 'http://52.33.93.196:3002',
+    bundle: 'bundle.js',
   },
   service4: {
     api: 'FIX_ME',

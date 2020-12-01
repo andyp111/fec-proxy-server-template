@@ -30,12 +30,7 @@ router.use('/service3.js', createProxyMiddleware({
   changeOrigin: true,
 }));
 
-router.use('/service4.js', createProxyMiddleware({
-  target: service4.url,
-  pathRewrite: {
-    '^/bundles/service4.js': service4.bundle,
-  },
-  changeOrigin: true,
-}));
+
+
 
 module.exports = router;
